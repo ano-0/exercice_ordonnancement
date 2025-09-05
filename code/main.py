@@ -5,7 +5,10 @@ from Johnson import *
 from Gantt import *
 
 def main():
-    # solution = neighborhood(tasks)
+    solution = list_algorithm(tasks)
+    plot_gantt(tasks, solution)
+    solution = neighborhood(tasks)
+    plot_gantt(tasks, solution)
     solution = johnson2(tasks)
     plot_gantt(tasks, solution)
     pass
