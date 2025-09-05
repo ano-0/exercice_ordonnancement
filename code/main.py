@@ -1,10 +1,12 @@
 from Task import *
-from Neighbourhood import *
 from List import *
+from Neighbourhood import *
 from Johnson import *
+from Gantt import *
 
 def main():
-    print("hello world")
+    solution = neighborhood(tasks)
+    plot_gantt(tasks, solution)
     pass
 
 if __name__ == "__main__":

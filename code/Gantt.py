@@ -1,5 +1,4 @@
 from Task import *
-# METHOD 3 (Johnson and virtual machine)
 
 # Plot Gantt
 
@@ -49,8 +48,3 @@ def plot_gantt(tasks: list[Task], solution: list[int]):
     plt.tight_layout()
     plt.show()
 
-
-# Function call
-
-solution = neighborhood(tasks)
-plot_gantt(tasks, solution)
